@@ -8,12 +8,78 @@
     {
       "id": 2,
       "description": "",
-      "title": "《Pig编程指南》"
+      "title": "《利用Python进行数据分析》"
     },
     {
       "id": 3,
       "description": "",
-      "title": "《可视化数据》"
+      "title": "《可视化数据》",
+      "depends": [
+        1, 2
+      ]
+    },
+    {
+      "id": 4,
+      "description": "",
+      "title": "《贝叶斯思维》"
+    },
+    {
+      "id": 5,
+      "description": "",
+      "title": "《集体智慧编程》",
+      "depends": [
+        7
+      ]
+    },
+    {
+      "id": 7,
+      "description": "",
+      "title": "《推荐系统》"
+    },
+    {
+      "id": 8,
+      "description": "",
+      "title": "《数据可视化实战》",
+      "depends": [
+        3
+      ]
+    },
+    {
+      "id": 9,
+      "description": "",
+      "title": "《驾驭文本:文本的发现、组织和处理》",
+      "depends": [
+        10
+      ]
+    },
+    {
+      "id": 10,
+      "description": "",
+      "title": "《Solr in Action》"
+    },
+    {
+      "id": 11,
+      "description": "",
+      "title": "《自然语言处理》",
+      "depends": [
+        9
+      ]
+    },
+    {
+      "id": 12,
+      "description": "",
+      "title": "《机器学习实战》",
+      "depends": [
+        11, 5, 4, 3
+      ]
+    },
+    {
+      "id": 13,
+      "description": "",
+      "title": "《机器学习》",
+      "depends": [
+        12
+      ]
     }
   ]
 }
