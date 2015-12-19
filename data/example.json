@@ -2,11 +2,12 @@
   "books": [
     {
       "id": 1,
-      "title": "《测试驱动开发》",
-      "description": ""
+      "description": "",
+      "title": "《测试驱动开发》"
     },
     {
       "id": 2,
+      "description": "",
       "title": "《重构: 改善既有代码的设计》",
       "depends": [
         1
@@ -14,10 +15,12 @@
     },
     {
       "id": 3,
+      "description": "",
       "title": "《Head First设计模式》"
     },
     {
       "id": 4,
+      "description": "",
       "title": "《设计模式解析》",
       "depends": [
         3
@@ -25,10 +28,12 @@
     },
     {
       "id": 5,
+      "description": "",
       "title": "《易读代码的艺术》"
     },
     {
       "id": 6,
+      "description": "",
       "title": "《代码整洁之道》",
       "depends": [
         5
@@ -36,6 +41,7 @@
     },
     {
       "id": 7,
+      "description": "",
       "title": "《重构与模式》",
       "depends": [
         2, 4, 6
@@ -43,6 +49,7 @@
     },
     {
       "id": 8,
+      "description": "",
       "title": "《设计模式》",
       "depends": [
         4, 6, 7
@@ -50,6 +57,7 @@
     },
     {
       "id": 9,
+      "description": "",
       "title": "《元素模式》",
       "depends": [
         8

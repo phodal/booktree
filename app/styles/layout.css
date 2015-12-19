@@ -10,7 +10,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 300;
 }
 
@@ -18,11 +18,15 @@ section {
   margin-bottom: 3em;
 }
 
+#tree {
+  width: 960px;
+  margin: 0 auto;
+}
+
 svg {
   width: 1200px;
   overflow: hidden;
-  margin: 0 auto;
-  margin-top: 80px;
+  margin: auto 0;
 }
 
 .node rect {
