@@ -1,7 +1,7 @@
 define(['d3', 'lib/knockout', 'scripts/Utils', 'dagre-d3', 'jquery', 'lettuce', 'text!templates/description.html', 'jquery.tooltipster'],
   function (d3, ko, Utils, dagreD3, $, Lettuce, description_template) {
     'use strict';
-    function renderPage(books_data) {
+    function renderPage(books_data, elementId) {
       function setSkillNode() {
         ko.utils.arrayForEach(books_data.books, function (book) {
           var value = book;
@@ -32,7 +32,7 @@ define(['d3', 'lib/knockout', 'scripts/Utils', 'dagre-d3', 'jquery', 'lettuce', 
       setSkillEdge();
 
       var render = new dagreD3.render();
-      var svg = d3.select('svg');
+      var svg = d3.select(elementId);
       var inner = svg.append('g');
 
       render(inner, g);

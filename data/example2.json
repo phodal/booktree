@@ -1,0 +1,80 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "description": "",
+      "title": "《JavaScript高级程序设计》"
+    },
+    {
+      "id": 2,
+      "description": "",
+      "title": "《JavaScript权威指南》"
+    },
+    {
+      "id": 3,
+      "description": "",
+      "title": "《编写可维护的JavaScript》",
+      "depends": [
+        4
+      ]
+    },
+    {
+      "id": 4,
+      "description": "",
+      "title": "《JavaScript语言精粹》",
+      "depends": [
+        1, 2
+      ]
+    },
+    {
+      "id": 5,
+      "description": "",
+      "title": "《DOM启蒙》"
+    },
+    {
+      "id": 6,
+      "description": "",
+      "title": "《JavaScript DOM编程艺术》",
+      "depends": [
+        5
+      ]
+    },
+    {
+      "id": 7,
+      "description": "",
+      "title": "《CSS权威指南》"
+    },
+    {
+      "id": 8,
+      "description": "",
+      "title": "《JavaScript 框架设计》",
+      "depends": [
+        4
+      ]
+    },
+    {
+      "id": 9,
+      "description": "",
+      "title": "《单页Web应用: JavaScript从前端到后端》",
+      "depends": [
+        6
+      ]
+    },
+    {
+      "id": 10,
+      "description": "",
+      "title": "《基于MVC的JavaScript Web富应用开发》",
+      "depends": [
+        8, 9, 11
+      ]
+    },
+    {
+      "id": 11,
+      "description": "",
+      "title": "《精通CSS:高级Web标准解决方案》",
+      "depends": [
+        7
+      ]
+    }
+  ]
+}

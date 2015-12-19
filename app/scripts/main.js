@@ -20,9 +20,18 @@ require.config({
   }
 });
 
-require(['lib/knockout', 'scripts/render', 'json!../data/example.json'],
-  function (ko, render, example) {
+require(['lib/knockout', 'scripts/render',
+    'json!../data/example.json',
+    'json!../data/example2.json',
+    'json!../data/example3.json'
+  ],
+  function (ko, render,
+            example,
+            example2,
+            example3) {
     'use strict';
 
-    render.renderPage(example);
+    render.renderPage(example, '#example');
+    render.renderPage(example2, '#example2');
+    render.renderPage(example3, '#example3');
   });

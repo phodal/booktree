@@ -1,0 +1,19 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "description": "",
+      "title": "《Hadoop权威指南》"
+    },
+    {
+      "id": 2,
+      "description": "",
+      "title": "《Pig编程指南》"
+    },
+    {
+      "id": 3,
+      "description": "",
+      "title": "《可视化数据》"
+    }
+  ]
+}
