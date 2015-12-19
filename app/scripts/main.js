@@ -21,17 +21,17 @@ require.config({
 });
 
 require(['lib/knockout', 'scripts/render',
-    'json!../data/example.json',
-    'json!../data/example2.json',
-    'json!../data/example3.json'
+    'json!data/code.json',
+    'json!data/frontend.json',
+    'json!data/ml.json'
   ],
   function (ko, render,
-            example,
-            example2,
-            example3) {
+            code,
+            frontend,
+            ml) {
     'use strict';
 
-    render.renderPage(example, '#example');
-    render.renderPage(example2, '#example2');
-    render.renderPage(example3, '#example3');
+    render.renderPage(code, '#code');
+    render.renderPage(frontend, '#frontend');
+    render.renderPage(ml, '#ml');
   });
