@@ -1,5 +1,5 @@
-define(['d3', 'lib/knockout', 'scripts/Utils', 'dagre-d3', 'jquery', 'lettuce', 'text!templates/description.html', 'scripts/Node', 'jquery.tooltipster'],
-  function (d3, ko, Utils, dagreD3, $, Lettuce, description_template, Node) {
+define(['d3', 'lib/knockout', 'scripts/Utils', 'dagre-d3', 'jquery', 'lettuce', 'text!templates/description.html', 'jquery.tooltipster'],
+  function (d3, ko, Utils, dagreD3, $, Lettuce, description_template) {
     'use strict';
     function renderPage(books_data) {
       function setSkillNode() {
@@ -36,9 +36,6 @@ define(['d3', 'lib/knockout', 'scripts/Utils', 'dagre-d3', 'jquery', 'lettuce', 
       var inner = svg.append('g');
 
       render(inner, g);
-
-      var vm = new Node(g._nodes);
-      ko.applyBindings(vm);
 
       inner.selectAll('g.node')
         .attr('data-bind', function () {
