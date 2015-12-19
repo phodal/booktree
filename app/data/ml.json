@@ -60,7 +60,7 @@
     {
       "id": 11,
       "description": "",
-      "title": "《自然语言处理》",
+      "title": "《Python自然语言处理》",
       "depends": [
         9
       ]
