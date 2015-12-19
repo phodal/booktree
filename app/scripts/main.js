@@ -24,17 +24,20 @@ require(['lib/knockout', 'scripts/render',
     'json!data/code.json',
     'json!data/frontend.json',
     'json!data/cd.json',
+    'json!data/lang.json',
     'json!data/ml.json'
   ],
   function (ko, render,
             code,
             frontend,
             cd,
+            lang,
             ml) {
     'use strict';
 
     render.renderPage(code, '#code');
     render.renderPage(frontend, '#frontend');
     render.renderPage(cd, '#cd');
+    render.renderPage(lang, '#lang');
     render.renderPage(ml, '#ml');
   });

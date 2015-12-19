@@ -1,0 +1,43 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "description": "",
+      "title": "《编译原理》"
+    },
+    {
+      "id": 3,
+      "description": "",
+      "title": "《编程语言实现模式》",
+      "depends": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "description": "",
+      "title": "《编程之魂》"
+    },
+    {
+      "id": 4,
+      "description": "",
+      "title": "《Ruby元编程》"
+    },
+    {
+      "id": 5,
+      "description": "",
+      "title": "《领域特定语言》",
+      "depends": [
+        3, 4, 2
+      ]
+    },
+    {
+      "id": 6,
+      "description": "",
+      "title": "《领域专用语言实战》",
+      "depends": [
+        5
+      ]
+    }
+  ]
+}
