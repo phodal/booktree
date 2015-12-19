@@ -71,6 +71,7 @@ rect.selection {
 
 .node text {
   pointer-events: none;
+  fill: #34495e;
 }
 
 /* disable text selection */
@@ -109,9 +110,4 @@ svg *::-webkit-selection {
 .tipsy .description {
   font-size: 1.2em;
   text-align: left;
-}
-
-.node text {
-  font-size:12px;
-  fill: #34495e;
 }
