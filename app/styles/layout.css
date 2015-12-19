@@ -1,0 +1,113 @@
+body {
+  color: #333;
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+svg {
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.node rect {
+  stroke: #333;
+  fill: #fff;
+}
+
+g.node rect {
+  stroke: #bdc3c7;
+  stroke-width: 2.5px;
+  cursor: pointer;
+}
+
+g.node rect.inner {
+  fill: white;
+}
+
+g.node rect.outer {
+  position: absolute;
+  display: none;
+  stroke-dasharray: 4px;
+  stroke-opacity: 0.5;
+  fill: transparent;
+}
+
+g.selected rect.outer {
+  display: inline;
+}
+
+rect.selection {
+  stroke: gray;
+  stroke-dasharray: 4px;
+  stroke-opacity: 0.5;
+  fill: transparent;
+}
+
+.edgePath path {
+  stroke: gray;
+  fill: gray;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  pointer-events: none;
+}
+
+/* disable text selection */
+svg *::selection {
+  background: transparent;
+}
+
+svg *::-moz-selection {
+  background: transparent;
+}
+
+svg *::-webkit-selection {
+  background: transparent;
+}
+
+/* This styles the title of the tooltip */
+.tipsy .name {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #60b1fc;
+  margin: 0;
+}
+
+.tipsy ul li {
+  font-size: 1em;
+  color: #60b1fc;
+  list-style: none;
+  text-align: left;
+}
+
+.tipsy ul li a {
+  color:#ecf0f1;
+}
+
+/* This styles the body of the tooltip */
+.tipsy .description {
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.node text {
+  font-size:12px;
+  fill: #34495e;
+}

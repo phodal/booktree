@@ -1,0 +1,203 @@
+[
+  {
+    "color_name": "turqoise",
+    "background": "#1abc9c",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "greenSea",
+    "background": "#16a085",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "emerald",
+    "background": "#2ecc71",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "nephritis",
+    "background": "#27ae60",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "green",
+    "background": "#4caf50",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "lightGreen",
+    "background": "#8bc34a",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "lime",
+    "background": "#cddc39",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "river",
+    "background": "#3498db",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "belize",
+    "background": "#2980b9",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "asphalt",
+    "background": "#34495e",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "midnightBlue",
+    "background": "#2c3e50",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "blue",
+    "background": "#2196f3",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "lightBlue",
+    "background": "#03a9f4",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "cyan",
+    "background": "#00bcd4",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "teal",
+    "background": "#009688",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "alizarin",
+    "background": "#e74c3c",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "pomegranate",
+    "background": "#c0392b",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "red",
+    "background": "#f44336",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "carrot",
+    "background": "#e67e22",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "pumpkin",
+    "background": "#d35400",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "dullOrange",
+    "background": "#f39c12",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "orange",
+    "background": "#ff9800",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "bloodOrange",
+    "background": "#ff5722",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "amber",
+    "background": "#ffc107",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "sunflower",
+    "background": "#f1c40f",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "yellow",
+    "background": "#ffeb3b",
+    "font_color": "#34495e"
+  },
+  {
+    "color_name": "amethyst",
+    "background": "#9b59b6",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "plum",
+    "background": "#8e44ad",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "purple",
+    "background": "#9c27b0",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "deepPurple",
+    "background": "#673ab7",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "pink",
+    "background": "#e91e63",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "indigo",
+    "background": "#3f51b5",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "brown",
+    "background": "#795548",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "grey",
+    "background": "#9e9e9e",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "gunMetal",
+    "background": "#607d8b",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "asbestos",
+    "background": "#7f8c8d",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "concrete",
+    "background": "#95a5a6",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "silver",
+    "background": "#bdc3c7",
+    "font_color": "#ecf0f1"
+  },
+  {
+    "color_name": "clouds",
+    "background": "#ecf0f1",
+    "font_color": "#34495e"
+  },
+  {
+    "color_name": "paper",
+    "background": "#efefef",
+    "font_color": "#34495e"
+  }
+]
+
