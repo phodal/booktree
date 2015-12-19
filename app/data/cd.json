@@ -1,0 +1,53 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "description": "",
+      "title": "《敏捷软件开发：原则、模式与实践》",
+      "depends": [
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "description": "",
+      "title": "《Git版本控制管理》"
+    },
+    {
+      "id": 3,
+      "description": "",
+      "title": "《软件测试的艺术》"
+    },
+    {
+      "id": 5,
+      "description": "",
+      "title": "《Cucumber:行为驱动开发指南》"
+    },
+    {
+      "id": 6,
+      "description": "",
+      "title": "《敏捷软件测试》",
+      "depends": [
+        3, 5
+      ]
+    },
+    {
+      "id": 7,
+      "description": "",
+      "title": "《深入理解软件构造系统》"
+    },
+    {
+      "id": 8,
+      "description": "",
+      "title": "《配置管理最佳实践》"
+    },
+    {
+      "id": 10,
+      "description": "",
+      "title": "《持续交付:发布可靠软件的系统方法》",
+      "depends": [
+        1, 6, 7, 8
+      ]
+    }
+  ]
+}

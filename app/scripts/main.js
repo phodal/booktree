@@ -23,15 +23,18 @@ require.config({
 require(['lib/knockout', 'scripts/render',
     'json!data/code.json',
     'json!data/frontend.json',
+    'json!data/cd.json',
     'json!data/ml.json'
   ],
   function (ko, render,
             code,
             frontend,
+            cd,
             ml) {
     'use strict';
 
     render.renderPage(code, '#code');
     render.renderPage(frontend, '#frontend');
+    render.renderPage(cd, '#cd');
     render.renderPage(ml, '#ml');
   });
