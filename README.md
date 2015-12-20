@@ -1,4 +1,4 @@
-#[Developer](https://github.com/phodal/developer)技术成长书单
+#[Developer](https://github.com/phodal/developer)进阶书单
 
 > 这是一份关于如何[Re-Practise](https://github.com/phodal/repractise)的技术书籍推荐书单。
 
