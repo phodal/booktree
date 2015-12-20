@@ -2,17 +2,17 @@
   "books": [
     {
       "id": 1,
-      "description": "",
+      "description": "将对JavaScript追根溯源，从它在最早的Netscape浏览器中诞生谈起，一直谈到今天的它对DOM和AjaX的强大支持。读者将通过《JavaScript高级程序设计(第3版)》掌握如何运用和扩展这门语言，从而更好地满足自己的需求，以及如何实现客户端与服务器的无缝通信，而又不必求助于Java或隐藏的网页框架（frame元素）。",
       "title": "《JavaScript高级程序设计》"
     },
     {
       "id": 2,
-      "description": "",
+      "description": "经典权威的JavaScript工具书，是程序员学习核心JavaScript语言和由Web浏览器定义的JavaScript API的指南和综合参考手册。",
       "title": "《JavaScript权威指南》"
     },
     {
       "id": 3,
-      "description": "",
+      "description": "运用《编写可维护的JavaScript》中讲述的技巧和技术，可以使JavaScript团队编程从侠义的个人偏好的阴霾走出来，走向真正的高可维护性、高效能和高水准。它是一本构建编码风格手册，帮助开发团队从“游击队”走向“正规军”。",
       "title": "《编写可维护的JavaScript》",
       "depends": [
         4
@@ -20,7 +20,7 @@
     },
     {
       "id": 4,
-      "description": "",
+      "description": "您将会发现一门美丽的、优雅的、轻量级的和非常富有表现力的语言，它使您创建高效的代码，不管您编写代码的目的是管理对象库还是仅仅使Ajax运行得更快。",
       "title": "《JavaScript语言精粹》",
       "depends": [
         1, 2
@@ -28,12 +28,12 @@
     },
     {
       "id": 5,
-      "description": "",
+      "description": "通过现代浏览器原生的概念与代码，将这些工具带回视线。读者将理解jQuery在DOM脚本编写中扮演的角色，并学习如何在移动应用和特定浏览器中直接使用DOM编写应用程序。",
       "title": "《DOM启蒙》"
     },
     {
       "id": 6,
-      "description": "",
+      "description": "在简洁明快地讲述JavaScript和DOM的基本知识之后，通过几个实例演示了专业水准的网页开发技术，透彻阐述了平稳退化等一批至关重要的JavaScript编程原则和实践，并全面探讨了HTML5以及jQuery等JavaScript库。",
       "title": "《JavaScript DOM编程艺术》",
       "depends": [
         5
@@ -41,12 +41,12 @@
     },
     {
       "id": 7,
-      "description": "",
+      "description": "想要快速省力地做到让Web风格整齐划一吗？《CSS权威指南(第3版)》告诉你怎样将最新的CSS2以CSS2.1里面所定义的各种CSS元素应用到实际工作当中。通过书中的例子，你将学会怎样使用CSS创建或修改网站的外观，并且达到普通HTML无法实现的效果。",
       "title": "《CSS权威指南》"
     },
     {
       "id": 8,
-      "description": "",
+      "description": "详细地讲解了设计框架需要具备的知识，主要包括的内容为：框架与库、JavaScript框架分类、JavaScript框架的主要功能、种子模块、模块加载系统、语言模块、浏览器嗅探与特征侦测、样式的支持侦测、类工厂、JavaScript对类的支撑...",
       "title": "《JavaScript 框架设计》",
       "depends": [
         4
@@ -54,7 +54,7 @@
     },
     {
       "id": 9,
-      "description": "",
+      "description": "本书展示了从前端到后端都使用JavaScript来开发复杂的单页Web应用，你的团队能够很容易地进行设计、测试、维护和扩展，不会受到某个框架的限制。",
       "title": "《单页Web应用: JavaScript从前端到后端》",
       "depends": [
         6
@@ -62,7 +62,7 @@
     },
     {
       "id": 10,
-      "description": "",
+      "description": "《基于MVC的JavaScript Web富应用开发》所涵盖的知识点非常全面，从Mvc的基本理论到网络协议、从模块解耦到异步编程模型、从HTML5/CSS3到NodeJS、从软件测试到部署调试，对于很多前端工程师来说，这些知识正是突破自己的瓶颈所亟需的。",
       "title": "《基于MVC的JavaScript Web富应用开发》",
       "depends": [
         8, 9, 11
@@ -70,7 +70,7 @@
     },
     {
       "id": 11,
-      "description": "",
+      "description": "将最有用的CSS技术汇总在一起，还总结了CSS设计中的实践，讨论了解决各种实际问题的技术，填补了一直以来CSS图书的空白。",
       "title": "《精通CSS:高级Web标准解决方案》",
       "depends": [
         7
