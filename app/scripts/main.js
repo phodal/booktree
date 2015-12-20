@@ -25,6 +25,7 @@ require(['lib/knockout', 'scripts/render',
     'json!data/frontend.json',
     'json!data/cd.json',
     'json!data/lang.json',
+    'json!data/arch.json',
     'json!data/ml.json'
   ],
   function (ko, render,
@@ -32,6 +33,7 @@ require(['lib/knockout', 'scripts/render',
             frontend,
             cd,
             lang,
+            arch,
             ml) {
     'use strict';
 
@@ -39,5 +41,6 @@ require(['lib/knockout', 'scripts/render',
     render.renderPage(frontend, '#frontend');
     render.renderPage(cd, '#cd');
     render.renderPage(lang, '#lang');
+    render.renderPage(arch, '#arch');
     render.renderPage(ml, '#ml');
   });

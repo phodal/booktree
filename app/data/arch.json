@@ -1,0 +1,64 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "description": "",
+      "title": "《企业应用架构模式》"
+    },
+    {
+      "id": 2,
+      "description": "",
+      "title": "《面向模式的软件架构卷1: 模式系统》",
+      "depends": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "description": "",
+      "title": "《领域特定语言》"
+    },
+    {
+      "id": 4,
+      "description": "",
+      "title": "《实现领域驱动设计》",
+      "depends": [
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "description": "",
+      "title": "《领域驱动设计》",
+      "depends": [
+        4
+      ]
+    },
+    {
+      "id": 6,
+      "description": "",
+      "title": "《浮现式设计:专业软件开发的演进本质》"
+    },
+    {
+      "id": 7,
+      "description": "",
+      "title": "《恰如其分的软件架构》"
+    },
+    {
+      "id": 8,
+      "description": "",
+      "title": "《程序员必读之软件架构》",
+      "depends": [
+        6, 7
+      ]
+    },
+    {
+      "id": 9,
+      "description": "",
+      "title": "《架构之美》",
+      "depends": [
+        2, 5, 8
+      ]
+    }
+  ]
+}
