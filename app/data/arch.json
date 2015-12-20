@@ -10,7 +10,7 @@
       "description": "",
       "title": "《面向模式的软件架构卷1: 模式系统》",
       "depends": [
-        1
+        1, 10
       ]
     },
     {
@@ -43,6 +43,11 @@
       "id": 7,
       "description": "",
       "title": "《恰如其分的软件架构》"
+    },
+    {
+      "id": 10,
+      "description": "",
+      "title": "《Java应用架构设计》"
     },
     {
       "id": 8,

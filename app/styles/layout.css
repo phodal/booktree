@@ -19,12 +19,12 @@ section {
 }
 
 #tree {
-  width: 960px;
+  width: 1200px;
   margin: 0 auto;
 }
 
 svg {
-  width: 1200px;
+  width: 1440px;
   overflow: hidden;
   margin: auto 0;
 }
