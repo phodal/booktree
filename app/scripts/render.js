@@ -2,7 +2,7 @@ define(['d3', 'lib/knockout', 'scripts/Utils', 'dagre-d3', 'jquery', 'lettuce', 
   function (d3, ko, Utils, dagreD3, $, Lettuce, description_template) {
     'use strict';
     function renderPage(books_data, elementId) {
-      function setSkillNode() {
+      function setBookNode() {
         ko.utils.arrayForEach(books_data.books, function (book) {
           var value = book;
           value.label = book.title;
@@ -13,7 +13,7 @@ define(['d3', 'lib/knockout', 'scripts/Utils', 'dagre-d3', 'jquery', 'lettuce', 
         });
       }
 
-      function setSkillEdge() {
+      function setBookEdge() {
         ko.utils.arrayForEach(books_data.books, function (book) {
           var book_id = book.id;
           if (book.depends) {
@@ -28,8 +28,8 @@ define(['d3', 'lib/knockout', 'scripts/Utils', 'dagre-d3', 'jquery', 'lettuce', 
 
       var lettuce = new Lettuce();
       var g = new dagreD3.graphlib.Graph().setGraph({});
-      setSkillNode();
-      setSkillEdge();
+      setBookNode();
+      setBookEdge();
 
       var render = new dagreD3.render();
       var svg = d3.select(elementId);
@@ -47,17 +47,15 @@ define(['d3', 'lib/knockout', 'scripts/Utils', 'dagre-d3', 'jquery', 'lettuce', 
         .each(function (v, id) {
           var data = {
             id: id,
-            name: v,
-            description: g.node(v).description,
-            books: g.node(v).books,
-            links: g.node(v).links
+            title: g.node(v).title,
+            description: g.node(v).description
           };
           var results = lettuce.Template.tmpl(description_template, data);
 
           $(this).tooltipster({
             content: $(results),
             contentAsHTML: true,
-            position: 'left',
+            position: 'top',
             animation: 'grow',
             interactive: true
           });
