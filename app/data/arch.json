@@ -11,12 +11,14 @@
       "title": "《面向模式的软件架构卷1: 模式系统》",
       "depends": [
         1, 10
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/25741382/"
     },
     {
       "id": 3,
       "description": "全面详尽地讲解了各种DSL及其构造方式，揭示了与编程语言无关的通用原则和模式，阐释了如何通过DSL有效提高开发人员的生产力以及增进与领域专家的有效沟通，能为开发人员选择和使用DSL提供有效的决策依据和指导方法。",
-      "title": "《领域特定语言》"
+      "title": "《领域特定语言》",
+      "douban": "http://book.douban.com/subject/21964984/"
     },
     {
       "id": 4,
@@ -24,7 +26,8 @@
       "title": "《实现领域驱动设计》",
       "depends": [
         3
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/25844633/"
     },
     {
       "id": 5,
@@ -32,22 +35,26 @@
       "title": "《领域驱动设计》",
       "depends": [
         4
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/5344973/"
     },
     {
       "id": 6,
       "description": "主要面向软件开发者群体，尤其是对敏捷开发感兴趣的程序设计人员。浮现式设计是一种敏捷技术，强调在开发过程中不断演进。",
-      "title": "《浮现式设计:专业软件开发的演进本质》"
+      "title": "《浮现式设计:专业软件开发的演进本质》",
+      "douban": "http://book.douban.com/subject/6757781/"
     },
     {
       "id": 7,
       "description": "作者建议根据项目面临的风险来调整架构设计的成本，并从多个视角阐述了软件架构的建模过程和方法，包括用例模型、概念模型、域模型、设计模型和代码模型等。",
-      "title": "《恰如其分的软件架构》"
+      "title": "《恰如其分的软件架构》",
+      "douban": "http://book.douban.com/subject/24872314/"
     },
     {
       "id": 10,
       "description": "书中揭示了模块化的重要性，如何实现模块化，以及如何使用OSGi实现模块化架构。",
-      "title": "《Java应用架构设计》"
+      "title": "《Java应用架构设计》",
+      "douban": "http://book.douban.com/subject/25770095/"
     },
     {
       "id": 8,
@@ -55,7 +62,8 @@
       "title": "《程序员必读之软件架构》",
       "depends": [
         6, 7
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/26248182/"
     },
     {
       "id": 9,
@@ -63,7 +71,8 @@
       "title": "《架构之美》",
       "depends": [
         2, 5, 8
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/4086029/"
     }
   ]
 }
