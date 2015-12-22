@@ -3,12 +3,14 @@
     {
       "id": 1,
       "description": "将对JavaScript追根溯源，从它在最早的Netscape浏览器中诞生谈起，一直谈到今天的它对DOM和AjaX的强大支持。读者将通过《JavaScript高级程序设计(第3版)》掌握如何运用和扩展这门语言，从而更好地满足自己的需求，以及如何实现客户端与服务器的无缝通信，而又不必求助于Java或隐藏的网页框架（frame元素）。",
-      "title": "《JavaScript高级程序设计》"
+      "title": "《JavaScript高级程序设计》",
+      "douban": "http://book.douban.com/subject/10546125/"
     },
     {
       "id": 2,
       "description": "经典权威的JavaScript工具书，是程序员学习核心JavaScript语言和由Web浏览器定义的JavaScript API的指南和综合参考手册。",
-      "title": "《JavaScript权威指南》"
+      "title": "《JavaScript权威指南》",
+      "douban": "http://book.douban.com/subject/10549733/"
     },
     {
       "id": 3,
@@ -16,7 +18,8 @@
       "title": "《编写可维护的JavaScript》",
       "depends": [
         4
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/21792530/"
     },
     {
       "id": 4,
@@ -24,12 +27,14 @@
       "title": "《JavaScript语言精粹》",
       "depends": [
         1, 2
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/11874748/"
     },
     {
       "id": 5,
       "description": "通过现代浏览器原生的概念与代码，将这些工具带回视线。读者将理解jQuery在DOM脚本编写中扮演的角色，并学习如何在移动应用和特定浏览器中直接使用DOM编写应用程序。",
-      "title": "《DOM启蒙》"
+      "title": "《DOM启蒙》",
+      "douban": "http://book.douban.com/subject/25882606/"
     },
     {
       "id": 6,
@@ -37,12 +42,14 @@
       "title": "《JavaScript DOM编程艺术》",
       "depends": [
         5
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/6038371/"
     },
     {
       "id": 7,
       "description": "想要快速省力地做到让Web风格整齐划一吗？《CSS权威指南(第3版)》告诉你怎样将最新的CSS2以CSS2.1里面所定义的各种CSS元素应用到实际工作当中。通过书中的例子，你将学会怎样使用CSS创建或修改网站的外观，并且达到普通HTML无法实现的效果。",
-      "title": "《CSS权威指南》"
+      "title": "《CSS权威指南》",
+      "douban": "http://book.douban.com/subject/2308234/"
     },
     {
       "id": 8,
@@ -50,7 +57,8 @@
       "title": "《JavaScript 框架设计》",
       "depends": [
         4
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/25858070/"
     },
     {
       "id": 9,
@@ -58,7 +66,8 @@
       "title": "《单页Web应用: JavaScript从前端到后端》",
       "depends": [
         6
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/25986284/"
     },
     {
       "id": 10,
@@ -66,7 +75,8 @@
       "title": "《基于MVC的JavaScript Web富应用开发》",
       "depends": [
         8, 9, 11
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/10733304/"
     },
     {
       "id": 11,
@@ -74,7 +84,8 @@
       "title": "《精通CSS:高级Web标准解决方案》",
       "depends": [
         7
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/4736167/"
     }
   ]
 }
