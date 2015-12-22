@@ -3,12 +3,14 @@
     {
       "id": 1,
       "description": "本书通过丰富的案例学习来解释Hadoop的幕后机理，阐述了Hadoop如何解决现实生活中的具体问题。",
-      "title": "《Hadoop权威指南》"
+      "title": "《Hadoop权威指南》",
+      "douban": "http://book.douban.com/subject/26206050/"
     },
     {
       "id": 2,
       "description": "适合刚刚接触Python的分析人员以及刚刚接触科学计算的Python程序员。将IPython这个交互式Shell作为你的首要开发环境。",
-      "title": "《利用Python进行数据分析》"
+      "title": "《利用Python进行数据分析》",
+      "douban": "http://book.douban.com/subject/25779298/"
     },
     {
       "id": 3,
@@ -16,12 +18,14 @@
       "title": "《可视化数据》",
       "depends": [
         1, 2
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/3661214/"
     },
     {
       "id": 4,
       "description": "这本书帮助那些希望用数学工具解决实际问题的人们，仅有的要求可能就是懂一点概率知识和程序设计。而贝叶斯方法是一种常见的利用概率学知识去解决不确定性问题的数学方法，对于一个计算机专业的人士，应当熟悉其应用在诸如机器翻译，语音识别，垃圾邮件检测等常见的计算机问题领域。",
-      "title": "《贝叶斯思维》"
+      "title": "《贝叶斯思维》",
+      "douban": "http://book.douban.com/subject/26340992/"
     },
     {
       "id": 5,
@@ -29,12 +33,14 @@
       "title": "《集体智慧编程》",
       "depends": [
         7
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/3288908/"
     },
     {
       "id": 7,
       "description": "全面阐述了开发先进推荐系统的方法，其中呈现了许多经典算法，并讨论了如何衡量推荐系统的有效性。",
-      "title": "《推荐系统》"
+      "title": "《推荐系统》",
+      "douban": "http://book.douban.com/subject/24746415/"
     },
     {
       "id": 8,
@@ -42,7 +48,8 @@
       "title": "《数据可视化实战》",
       "depends": [
         3
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/24748670/"
     },
     {
       "id": 9,
@@ -50,12 +57,14 @@
       "title": "《驾驭文本:文本的发现、组织和处理》",
       "depends": [
         10
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/26582357/"
     },
     {
       "id": 10,
-      "description": "Solr in Action",
-      "title": "《Solr in Action》"
+      "description": "《Lucene in Action》",
+      "title": "《Lucene in Action》",
+      "douban": "http://book.douban.com/subject/1962641/"
     },
     {
       "id": 11,
@@ -63,7 +72,8 @@
       "title": "《Python自然语言处理》",
       "depends": [
         9
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/25916599/"
     },
     {
       "id": 12,
@@ -71,7 +81,8 @@
       "title": "《机器学习实战》",
       "depends": [
         11, 5, 4, 3
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/24703171/"
     },
     {
       "id": 13,
@@ -79,7 +90,8 @@
       "title": "《机器学习:实用案例解析》",
       "depends": [
         12
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/24251326/"
     }
   ]
 }
