@@ -6,22 +6,26 @@
       "title": "《敏捷软件开发：原则、模式与实践》",
       "depends": [
         2
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/1140457/"
     },
     {
       "id": 2,
       "description": "Git是一款免费、开源的分布式版本控制系统，最早由LinilusTorvalds创建，用于管理Linux内核开发，现已成为分布式版本控制的主流工具。",
-      "title": "《Git版本控制管理》"
+      "title": "《Git版本控制管理》",
+      "douban": "http://book.douban.com/subject/26341974/"
     },
     {
       "id": 3,
       "description": "以一次自评价测试开篇，从软件测试的心理学和经济学入手，探讨了代码检查、走查与评审、测试用例的设计、模块（单元）测试、系统测试、调试等主题，以及极限测试、互联网应用测试等高级主题，全面展现了作者的软件测试思想。",
-      "title": "《软件测试的艺术》"
+      "title": "《软件测试的艺术》",
+      "douban": "http://book.douban.com/subject/10549782/"
     },
     {
       "id": 5,
       "description": "自动化测试",
-      "title": "《Cucumber:行为驱动开发指南》"
+      "title": "《Cucumber:行为驱动开发指南》",
+      "douban": "http://book.douban.com/subject/24843412/"
     },
     {
       "id": 6,
@@ -29,17 +33,20 @@
       "title": "《敏捷软件测试》",
       "depends": [
         3, 5
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/5338399/"
     },
     {
       "id": 7,
       "description": "构造系统在软件开发过程中处于核心地位，它的正确性和性能，在一定程度上决定了软件开发成果的质量和软件开发过程的效率。",
-      "title": "《深入理解软件构造系统》"
+      "title": "《深入理解软件构造系统》",
+      "douban": "http://book.douban.com/subject/10769838/"
     },
     {
       "id": 8,
       "description": "旨在指导配置管理从业者如何处理日常工作中需要面对的各种复杂情况。",
-      "title": "《配置管理最佳实践》"
+      "title": "《配置管理最佳实践》",
+      "douban": "http://book.douban.com/subject/25717078/"
     },
     {
       "id": 10,
@@ -47,7 +54,8 @@
       "title": "《持续交付:发布可靠软件的系统方法》",
       "depends": [
         1, 6, 7, 8
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/6862062/"
     }
   ]
 }
