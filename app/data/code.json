@@ -3,7 +3,8 @@
     {
       "id": 1,
       "description": "尽管在国内，我们很少听到开发人员写测试，就更少听人们谈论TDD。虽然我不是TDD的死忠，但是我觉得TDD还是很有好处的。特别是当你的函数特别长的时候，它可以驱使你写出更短的函数——更多的函数。红->绿->重构，就是这么简单。",
-      "title": "《测试驱动开发》"
+      "title": "《测试驱动开发》",
+      "douban": "http://book.douban.com/subject/25735501/"
     },
     {
       "id": 2,
@@ -11,12 +12,14 @@
       "title": "《重构: 改善既有代码的设计》",
       "depends": [
         1
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/26575459/"
     },
     {
       "id": 3,
       "description": "GoF的《设计模式》一书很薄，所以也很抽象。第一次看《设计模式》的时候，硬着头皮看了几天，然后放弃了。。。不过，Head First系列可以将各种枯燥的设计生起起来，这是一本非常适合入门设计模式的书籍没有之一。",
-      "title": "《Head First设计模式》"
+      "title": "《Head First设计模式》",
+      "douban": "http://book.douban.com/subject/2243615/"
     },
     {
       "id": 4,
@@ -24,12 +27,14 @@
       "title": "《设计模式解析》",
       "depends": [
         3
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/1850191/"
     },
     {
       "id": 5,
       "description": "纳尼！你居然不想买这本书？",
-      "title": "《易读代码的艺术/编写可读代码的艺术》"
+      "title": "《易读代码的艺术/编写可读代码的艺术》",
+      "douban": "http://book.douban.com/subject/10773334/"
     },
     {
       "id": 6,
@@ -37,7 +42,8 @@
       "title": "《代码整洁之道》",
       "depends": [
         5
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/4199741/"
     },
     {
       "id": 7,
@@ -45,7 +51,8 @@
       "title": "《重构与模式》",
       "depends": [
         2, 6
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/1917706/"
     },
     {
       "id": 8,
@@ -53,7 +60,8 @@
       "title": "《设计模式》",
       "depends": [
         4, 7, 9
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/1052241/"
     },
     {
       "id": 9,
@@ -61,7 +69,8 @@
       "title": "《元素模式》",
       "depends": [
         8
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/25908396/"
     }
   ]
 }
