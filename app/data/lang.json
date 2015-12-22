@@ -3,7 +3,8 @@
     {
       "id": 1,
       "description": "龙书!",
-      "title": "《编译原理》"
+      "title": "《编译原理》",
+      "douban": "http://book.douban.com/subject/3296317/"
     },
     {
       "id": 3,
@@ -11,17 +12,20 @@
       "title": "《编程语言实现模式》",
       "depends": [
         1
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/10482195/"
     },
     {
       "id": 2,
       "description": "书中以问答方式告诉为什么要创建某种编程语言、它在技术上如何开发、如何教授和学习，以及它如何顺应时代发展等。你会发现构建成功编程语言所需的思想和步骤，它广受欢迎的原因，以及如何处理程序员常见的问题。",
-      "title": "《编程之魂》"
+      "title": "《编程之魂》",
+      "douban": "http://book.douban.com/subject/4719230/"
     },
     {
       "id": 4,
       "description": "本书堪称动态语言设计模式。",
-      "title": "《Ruby元编程》"
+      "title": "《Ruby元编程》",
+      "douban": "http://book.douban.com/subject/7056800/"
     },
     {
       "id": 5,
@@ -29,7 +33,8 @@
       "title": "《领域特定语言》",
       "depends": [
         3, 4, 2
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/21964984/"
     },
     {
       "id": 6,
@@ -37,7 +42,8 @@
       "title": "《领域专用语言实战》",
       "depends": [
         5
-      ]
+      ],
+      "douban": "http://book.douban.com/subject/25741352/"
     }
   ]
 }
