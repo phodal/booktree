@@ -48,6 +48,7 @@ define(['d3', 'lib/knockout', 'scripts/Utils', 'dagre-d3', 'jquery', 'lettuce', 
           var data = {
             id: id,
             title: g.node(v).title,
+            douban: g.node(v).douban,
             description: g.node(v).description
           };
           var results = lettuce.Template.tmpl(description_template, data);
