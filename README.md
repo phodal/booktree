@@ -1,5 +1,7 @@
 #[Developer](https://github.com/phodal/developer)进阶书单
 
+成长路线已经汇集到Growth，Github见：[https://github.com/phodal/growth](https://github.com/phodal/growth)
+
 > 这是一份关于如何[Re-Practise](https://github.com/phodal/repractise)的技术书籍推荐书单。
 
 一直画/写一个推荐书单来供大家参考，无奈找不到一本合适的形式。有一天，想到了之前的技术树 [https://github.com/phodal/sherlock](https://github.com/phodal/sherlock)，便开始落地了。
