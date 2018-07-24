@@ -70,3 +70,8 @@ svg *::-moz-selection {
 svg *::-webkit-selection {
   background: transparent;
 }
+
+path {
+  color: #ddd;
+  fill: #ddd;
+}
