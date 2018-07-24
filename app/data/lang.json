@@ -2,7 +2,7 @@
   "books": [
     {
       "id": 1,
-      "description": "龙书!",
+      "description": "龙书!龙书!龙书!",
       "title": "《编译原理》",
       "douban": "http://book.douban.com/subject/3296317/"
     },
@@ -29,21 +29,21 @@
     },
     {
       "id": 5,
-      "description": "全面详尽地讲解了各种DSL及其构造方式，揭示了与编程语言无关的通用原则和模式，阐释了如何通过DSL有效提高开发人员的生产力以及增进与领域专家的有效沟通，能为开发人员选择和使用DSL提供有效的决策依据和指导方法。",
-      "title": "《领域特定语言》",
-      "depends": [
-        3, 4, 2
-      ],
-      "douban": "http://book.douban.com/subject/21964984/"
-    },
-    {
-      "id": 6,
       "description": "不仅介绍如何使用DSL解决问题，还会使用Ruby、Groovy、Scala、Clojure等现代语言阐述DSL的设计与实现，针对这些语言所代表的不同编程范式深入讨论其在DSL设计上的优劣。",
       "title": "《领域专用语言实战》",
       "depends": [
-        5
+        3, 4, 2
       ],
       "douban": "http://book.douban.com/subject/25741352/"
+    },
+    {
+      "id": 6,
+      "description": "全面详尽地讲解了各种DSL及其构造方式，揭示了与编程语言无关的通用原则和模式，阐释了如何通过DSL有效提高开发人员的生产力以及增进与领域专家的有效沟通，能为开发人员选择和使用DSL提供有效的决策依据和指导方法。",
+      "title": "《领域特定语言》",
+      "depends": [
+        5
+      ],
+      "douban": "http://book.douban.com/subject/21964984/"
     }
   ]
 }
