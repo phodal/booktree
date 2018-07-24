@@ -6,6 +6,8 @@
   <link href="app/styles/layout.css" rel="stylesheet">
   <link href="app/styles/tooltipster.css" rel="stylesheet">
   <link href="app/styles/mifa.min.css" rel="stylesheet">
+  <script type="text/javascript" src="app/lib/FileSaver.min.js"></script>
+  <script type="text/javascript" data-main="app/scripts/main.js" src="app/lib/require.js"></script>
 </head>
 <body>
 <div id="tree">
@@ -26,6 +28,7 @@
   <p>So，通过研究现有技术的一些发展，我们可以预料到一些新的技术的出现。尽管新的技术并没有解决一些根本性问题，如业务，但是它是为了业务而简化现有的技术。</p>
   <h2>如何写好代码——重构与设计模式</h2>
   <svg id="code" width=960 height=480></svg>
+  <button id="generate-code">导出 SVG</button>
 
   <h2>如何写前端框架——前端读书路线图</h2>
   <svg id="frontend" width=960 height=480></svg>
@@ -58,5 +61,4 @@
   <p>© 2015 <a href="http://www.phodal.com">Phodal Huang</a>. See <code>LICENSE.txt</code> in this directory.</p>
 </div>
 </body>
-<script type="text/javascript" data-main="app/scripts/main.js" src="app/lib/require.js"></script>
 </html>
