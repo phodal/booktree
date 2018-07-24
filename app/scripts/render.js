@@ -51,8 +51,8 @@ define(['d3', 'lib/knockout', 'scripts/Utils', 'dagre-d3', 'jquery', 'lettuce', 
         saveAs(blob,  id + ".svg");
       }
 
-      d3.select("#generate-code").on("click", function() {
-        writeDownloadLink('code');
+      d3.select("#generate-" + elementId.substr(1)).on("click", function() {
+        writeDownloadLink(elementId.substr(1));
       });
 
       var lettuce = new Lettuce();
